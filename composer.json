@@ -25,13 +25,19 @@
   ],
   "require": {
     "jedrzej/sortable": "0.0.*",
-    "jedrzej/searchable": "0.0.*",
+    "jedrzej/searchable": "dev-insensitive-case as 0.0.1",
     "jedrzej/withable": "0.0.*"
   },
   "require-dev": {
     "codeception/codeception": "2.0.*",
     "codeception/specify": "*"
   },
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/Mirdrack/searchable.git"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Jedrzej\\": "src/Jedrzej/",
