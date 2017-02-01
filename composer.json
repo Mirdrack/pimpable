@@ -25,7 +25,7 @@
   ],
   "require": {
     "jedrzej/sortable": "0.0.*",
-    "jedrzej/searchable": "dev-insensitive-case as 0.0.1",
+    "jedrzej/searchable": "dev-insensitive-case",
     "jedrzej/withable": "0.0.*"
   },
   "require-dev": {
